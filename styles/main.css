@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(171, 171, 194);
+}
+article {
+    margin: 50px;
+    width: 500px;
+    border: solid 10px rgb(189, 102, 71);
+    padding: 30px;
+}
