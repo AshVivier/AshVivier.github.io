@@ -6,11 +6,11 @@ article {
     width: 500px;
     border: solid 10px rgb(189, 102, 71);
     padding: 30px;
-    position: right;
+    position: relative;
 }
 
 Button {
-    color: black;git
+    color: black
     margin: 10px;
     width: 210px;
     border: 7px solid rgb(37, 102, 133); 
