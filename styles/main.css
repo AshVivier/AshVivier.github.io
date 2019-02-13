@@ -2,7 +2,7 @@ body {
     background-color: rgb(171, 171, 194);
 }
 article {
-    margin: 50px 300px 50px 300px;
+    margin: 50px 370px 50px 370px;
     width: 500px;
     border: solid 10px rgb(189, 102, 71);
     padding: 30px;
@@ -52,3 +52,10 @@ Button {
     margin-left: 10%;
     margin-right: 10%
 }
+.Sidebutton {
+    color: black;
+    margin: 10px;
+    width: 100px;
+    border: 7px solid rgb(37, 102, 133); 
+    background-color: rgb(112, 206, 162);
+    padding: 20px; 
