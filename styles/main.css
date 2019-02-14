@@ -56,9 +56,10 @@ Button {
 
 .frogs {
     margin: 50px;
-    width: 500px;
+    width: 80%;
     border: solid 10px rgb(189, 102, 71);
     padding: 30px;
+    text-align: center;
 }
 .striped-border {
     border: 5px dashed #000;
@@ -85,13 +86,6 @@ Button {
     border: 7px solid rgb(37, 102, 133); 
     background-color: rgb(112, 206, 162);
     padding: 20px; 
-
-   
-
-
-
-
-
 
 
 
