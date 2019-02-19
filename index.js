@@ -1,17 +1,37 @@
+//Create your todos//
+var todos = ['fox', 'fix', 'face']
 
-MakeSandichWith _________
-    get a piece of Bread;
-    put _________ on top;
-    put another piece of bread on top of that;
-    
+//It should have a function to display todos.//
 
-function MakeSandichWith (filling) {
-get a piece of Bread;
-put filling on top;
-put another piece of bread on top of that;
+function displayTodos() {
+    console.log('My todos', todos);
 }
 
-MakeSandichWith(ham)
+//It should have a function to add todos//
 
+function addTodo(todo) {
+    todos.push(todo);
+    displayTodos();
+}  
 
+//It should have a function to change todos//
 
+function changeTodo(position, newValue) {
+    todos[position] = newValue;
+    displayTodos();
+}
+
+//it should have a function to dispaly todos//
+
+function deleteTodo (position) {
+    todos.splice(position, 1);
+    displayTodos();
+}
+
+i=0                     //Initialization
+say "hey" if i < 3      //condition
+Increase i by 1         //final expression
+
+for (var i = 0; i < 3; i++) {
+    console.log('hey');
+}
