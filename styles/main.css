@@ -86,9 +86,25 @@ Button {
     border: 7px solid rgb(37, 102, 133); 
     background-color: rgb(112, 206, 162);
     padding: 20px; 
+}
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+    }
 
+    .alignright {
+        display: inline;
+        float: right;
+        margin-right: 1.5em;
+        }
 
-
+        .frogs {
+            margin: 50px;
+            width: 80%;
+            border: solid 10px rgb(24, 73, 32);
+            padding: 30px;
+            text-align: center;
 
 
 
